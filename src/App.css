@@ -1,0 +1,202 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+body {
+  
+  /*background-image: url("project3_img/snow_project3/snow1.jpg");*/
+}
+
+.title {
+  color: #eff2f0;
+  margin: 0 0 10px 0;
+  padding-top: 20px; 
+}
+.container {
+  width: 775px;
+}
+.weatherSquare {
+  height: 180px;
+  width: 10px;
+  background: rgba(10, 10, 10, 0.5);
+}
+.weatherSquare h2 {
+  margin: 10px 3px 10px 10px;
+  font-size: 65px;
+  color: #eff2f0;
+  font-family:;
+
+}
+
+.weatherSquare p {
+  margin-bottom: 3px;
+  color: #eff2f0;
+}
+
+
+.loginBtn, .signupBtn {
+  margin-top: 130px;
+  margin: 150px 15px 0 15px;
+
+}
+
+.loginBtn {
+  background-color: #54D0C0;
+  border: none;
+  box-shadow: 3px 3px 4px #897B7B;
+}
+
+.signupBtn {
+  background-color: #54D0C0;
+  border: none;
+  box-shadow: 3px 3px 4px #897B7B;
+}
+
+.searchBar {
+  margin: 100px auto;
+}
+
+.searched {
+  margin:100px auto;
+  height: 200px;
+  width: 500px;
+  border-radius: 30px;
+  background: rgba(250, 250, 250, 0.9);
+}
+
+
+.weatherBrief {
+  
+
+}
+.weatherBrief h1 {
+  display: inline-block;
+  font-size: 80px;
+  margin: 10px;
+}
+.weatherBrief h5 {
+  
+  font-size: 40px;
+  margin: auto 20px;
+}
+
+.tempAndName {
+  display: flex;
+  align-items: flex-start;
+}
+.detailAndAdd {
+  float: right;
+  display: flex;
+  align-items: flex-end;
+}
+.detail {
+  margin: auto;
+}
+
+.delete {
+  background-color: #54D0C0;
+  border: none;
+  box-shadow: 3px 3px 4px #897B7B;
+  
+  margin: 5px;
+}
+
+.edit {
+  
+  background-color: #54D0C0;
+  border: none;
+  box-shadow: 3px 3px 4px #897B7B;
+  
+  margin: 10px;
+}
+
+.seeList {
+  cursor: pointer;
+  color: grey;
+  font-size: 15px;
+  border-bottom: solid 2px grey;
+  padding: 3px;
+  display: inline-block; 
+  background-color: white;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+.username {
+  color: white;
+  background-color: rgba(10, 10, 10, 0.5);
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 60px;
+}
+
+.cityListContainer {
+  
+}
+
+.cityListUl {
+  list-style: none;
+  background-color: white;
+  width: 200px;
+  margin:0 auto;
+  border-radius: 15px;
+  padding: 3px;
+}
+
+.cityListP {
+  margin-top: 10px;
+}
+
+.editInput {
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #897B7B;
+}
+
+h6 {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.logoutBtn {
+  margin-top: 60px;
+  background-color: #252826;
+  border: none;
+  opacity: 0.8;
+}
+
+.footer {
+  height: 300px;
+}
+
