@@ -1,13 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## ImageCave
+## Weather
 
-Open [https://react-app-project5.herokuapp.com/](https://react-app-project5.herokuapp.com/) to view it in the browser.
+Open [https://project3-frontend.herokuapp.com/](https://project3-frontend.herokuapp.com/) to view it in the browser.
 
-Inspired by Flickr & Unsplash, welcome everyone to share their beautiful photos.
+Provide the current weather status when user enter the city.
+This app has used a third-party weather api [https://openweathermap.org/api](https://openweathermap.org/api)
+User will see 4 default city's weather in the homepage.
+User need to register or login to use the search function.
 
-## WireFrame
-![wireframe](https://imgur.com/EPPlYcY.png)
+## Screenshot
+![screenshot](https://imgur.com/kKAXeRI.png)
 
 ## Technologies
 Front-end:
@@ -17,12 +20,12 @@ Front-end:
 - Bootstrap
 - HTML5
 Back-end:
-- Python
-- Flask
+- MongoDB
+- Node.js
 Deployment
 - Heroku
 
 ## Up and Coming Features
-- Comments & Likes section
-- User can see other user's profile
-- Implement Google Map API to get the pictures's address showing on google map
+- allow user to switch the degree from ℃ to ℉
+- User can a list of favorite city
+- Create animation in the weather report
